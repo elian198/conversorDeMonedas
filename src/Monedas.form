@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Monedas">
+  <grid id="27dc6" binding="jPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="517" height="400"/>
+    </constraints>
+    <properties>
+      <name value="Monedas"/>
+      <preferredSize width="400" height="120"/>
+      <requestFocusEnabled value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="de877" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Elija la moneda que deseas convertir a tu dinero"/>
+        </properties>
+      </component>
+      <component id="aff3d" class="javax.swing.JComboBox" binding="comboMonedas">
+        <constraints/>
+        <properties>
+          <model>
+            <item value="De pesos a dollar"/>
+            <item value="De pesos a euros"/>
+            <item value="De pesos a Libras"/>
+            <item value="De pesos a Yen Japones"/>
+            <item value="De Pesos a Won SUl-Coreano"/>
+            <item value=""/>
+            <item value="De Dollar a Pesos"/>
+            <item value="De Euros a Pesos"/>
+            <item value="De Libras a Pesos"/>
+            <item value="De Yen Japones a Pesos"/>
+            <item value="De Won Sul-Coreano a Pesos"/>
+          </model>
+          <name value="Monedas"/>
+        </properties>
+      </component>
+      <component id="c011b" class="javax.swing.JButton" binding="bOk">
+        <constraints/>
+        <properties>
+          <text value="Ok"/>
+        </properties>
+      </component>
+      <component id="ce750" class="javax.swing.JButton" binding="bCancelar">
+        <constraints/>
+        <properties>
+          <text value="Cancelar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
