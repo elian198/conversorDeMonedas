@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Menu">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="74" y="20" width="294" height="126"/>
+    </constraints>
+    <properties>
+      <maximumSize width="300" height="200"/>
+      <minimumSize width="294" height="80"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="5d336" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Selecciona una opcion de conversion"/>
+        </properties>
+      </component>
+      <component id="c8f5c" class="javax.swing.JComboBox" binding="opciones">
+        <constraints/>
+        <properties>
+          <maximumSize width="400" height="200"/>
+          <minimumSize width="84" height="40"/>
+          <model>
+            <item value="Conversor de Monedas"/>
+            <item value="Conversor de Temperatura"/>
+          </model>
+        </properties>
+      </component>
+      <component id="67f43" class="javax.swing.JButton" binding="bOk">
+        <constraints/>
+        <properties>
+          <text value="OK"/>
+        </properties>
+      </component>
+      <component id="d5353" class="javax.swing.JButton" binding="bCalcelar">
+        <constraints/>
+        <properties>
+          <text value="Cancelar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
